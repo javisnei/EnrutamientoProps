@@ -1,0 +1,19 @@
+.cuerpo
+{    
+    display: flex;
+  flex-direction: column;     /* uno debajo del otro */
+  align-items: center;        /* centra horizontalmente */
+  justify-content: center; 
+}
+
+.forma
+{
+    display: flex;
+  flex-direction: column;     /* uno debajo del otro */
+  align-items: center;        /* centra horizontalmente */
+  justify-content: center; 
+    border: 1px solid blueviolet;;
+    margin: 30px;
+
+    width: 330px;
+}

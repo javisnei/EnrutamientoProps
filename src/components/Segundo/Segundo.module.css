@@ -1,0 +1,74 @@
+.cuerpo
+{
+    height: px;
+    display: flex;
+  flex-direction: column;     /* uno debajo del otro */
+  align-items: center;        /* centra horizontalmente */
+  justify-content: center; 
+}
+
+p
+{
+    font-size: 90%; 
+    margin: 20px;
+}
+
+.estrella {
+  font-size: 30px;
+  color: gold;
+  margin: 0%;
+}
+
+.vacia {
+  font-size: 30px;
+  color: #ccc;
+}
+
+h6 
+{
+    margin-left: 50px;
+    margin-top: 0px;    
+    margin-bottom: 0px;
+}
+.conBot
+{
+  display: flex;    
+  align-items: center;      
+  flex-direction: column;   
+  
+}
+img
+{
+    width: 100px;
+    margin: 0px;
+}
+.forma
+{
+    width: 300px;
+    border: 2px solid blueviolet;
+    margin: 20px;
+    display: flex;
+  flex-direction: column;     /* uno debajo del otro */
+  align-items: center;        /* centra horizontalmente */
+  justify-content: center; 
+    
+}
+
+.boton
+{
+    margin: 5px;
+}
+.izq
+{
+    background-color: white;
+}
+.der
+{
+    background-color: white;
+}
+
+
+.str 
+{
+    margin: 0%;
+}

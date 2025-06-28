@@ -1,0 +1,17 @@
+.cont
+{
+  display: flex;
+  flex-direction: column;     /* uno debajo del otro */
+  align-items: center;        /* centra horizontalmente */
+  justify-content: center;    /* centra verticalmente */
+  height: 100vh;              
+    background-color: grey; 
+}
+
+.titulo
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+
+
+}
