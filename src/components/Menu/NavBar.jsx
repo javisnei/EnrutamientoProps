@@ -20,6 +20,9 @@ export const NavBar = () => {
 
       <Link  to="/error" className={styles.menu}>Primero2 </Link>
 
+    
+       
+
     </nav>
       
   </>

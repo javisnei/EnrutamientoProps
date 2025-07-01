@@ -1,0 +1,8 @@
+.cont
+{
+    background-color: blueviolet;
+    align-content: center;
+    display: flex;
+  justify-content: center; 
+  margin: 10px;
+}

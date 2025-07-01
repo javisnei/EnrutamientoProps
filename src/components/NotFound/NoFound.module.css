@@ -1,14 +1,13 @@
-.con1
-{
-    display: flex; 
-    justify-content: center; 
-    align-items: center;    
 
-}
-.cp
+.principal
 {
-    margin-left: 100px;
+    width: 100%;  
+    display: flex;
+    justify-content: center; /* Centra en horizontal */
+    align-items: center;  
+    height: 100vh;
 }
+
 h3
 {
     font-size: 45px;

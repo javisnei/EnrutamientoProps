@@ -9,6 +9,11 @@ import { Cuarto } from './components/Cuarto/Cuarto'
 import { EnviaCuarto } from './components/Cuarto/EnviaCuarto'
 import { EnviaFound } from './components/NotFound/EnviaFound'
 import { EnviaFoundOtro } from './components/NotFound/EnviaFoundOtro'
+import { Boton } from './components/Partes/Boton'
+
+import styles from './App.module.css'
+
+
 
 
 
@@ -18,20 +23,26 @@ function App() {
   return (
     
     <> 
-   
-    <NavBar/>
-    
-   
-    <Routes>
-      <Route path='/' element={<Inicio/>}/>
+    <div className={styles.principal}>
       
-      <Route path='/Primero' element={<EnviaFound/>}/>
-      <Route path='/Segundo' element={<Segundo/>}/>
-      <Route path='/Tercero' element={<Tercero/>}/>
-      <Route path='/Cuarto' element={<EnviaCuarto/>}/>
-      <Route path='/error' element={<EnviaFoundOtro/>}/>
+      <div className={styles.menu}>   
+        <NavBar/>    
+      </div>
 
-    </Routes>
+      
+      <div className={styles.paginas}>
+        <Routes>
+          <Route path='/' element={<Inicio/>}/>      
+          <Route path='/Primero' element={<EnviaFound/>}/>
+          <Route path='/Segundo' element={<Segundo/>}/>
+          <Route path='/Tercero' element={<Tercero/>}/>
+          <Route path='/Cuarto' element={<EnviaCuarto/>}/>
+          <Route path='/error' element={<EnviaFoundOtro/>}/>
+          
+        </Routes>
+        </div>
+
+    </div>
 
   
     </>

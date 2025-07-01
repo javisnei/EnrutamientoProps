@@ -1,7 +1,19 @@
 import React from 'react'
 import style from './Tercero.module.css'
+import { Boton } from '../Partes/Boton';
 
 export const Tercero = () => {
+  const boton1 = [
+    {
+      texto: "like" 
+    }    
+  ];
+   const boton2 = [
+    {
+      texto: "Comprame" 
+    }    
+  ];
+
   return (
     <>
     <div className={style.cuerpo}>
@@ -28,8 +40,26 @@ export const Tercero = () => {
         Due to heigh demand limited to 2 per order 
       </p>
       <div>
-        <button> LIKE </button>
-        <button> COMPRAR </button>
+        {
+        boton1.map((i,index) =>  {
+              return (
+            <Boton
+                   key = {index}
+                   texto = {i.texto}
+                             />
+                          )
+                        })
+                      }
+                             {
+                        boton2.map((i,index) =>  {
+                          return (
+                            <Boton
+                              key = {index}
+                              texto = {i.texto}
+                             />
+                          )
+                        })
+                      }
       </div>
       </div>
     </div>

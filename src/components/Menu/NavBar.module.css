@@ -21,7 +21,9 @@
   
     display: flex;
      flex-direction: column; 
-    background-color: rgb(64, 139, 61);
+    /*background-color: rgb(64, 139, 61);*/
     height: 100vh;
     width: 120px;
+
+    border: #c42020 solid;
 }
