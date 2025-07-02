@@ -1,13 +1,14 @@
 
- import styles from './boton.module.css'
+ //import styles from './boton.module.css'
+ import sty from '../NotFound/NoFound.module.css' 
 
-export const Boton = ({ texto } ) => {
+export const Boton = ({ texto , estilo} ) => {
   return (
     <>
     
-    <boton className={styles.boton}>
+    <button className={sty[estilo]}>
         {texto}
-    </boton>
+    </button>
    
 
     </>
