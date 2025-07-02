@@ -21,7 +21,9 @@ export const NavBar = () => {
       <Link  to="/error" className={styles.menu}>Primero2 </Link>
 
     
-       
+       <Link to="/Cebolla" className={styles.menu}>Cebolla </Link>
+
+       <Link to="/Album" className={styles.menu}>Album</Link>
 
     </nav>
       
