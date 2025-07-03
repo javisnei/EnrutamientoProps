@@ -14,6 +14,7 @@ import styles from "./App.module.css";
 import { Cebolla } from "./components/Cebolla/Cebolla";
 import { Contador } from "./components/Contador/Contador";
 import { Album } from "./components/Album/Album";
+import { Todo } from "./components/Tareas/Todo";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
             <Route path="/error" element={<EnviaFoundOtro />} />
             <Route path="/Cebolla" element={<Cebolla />} />
             <Route path="/Album" element={<Album />} />
+            <Route path="/Tareas" element={<Todo/>} />
           </Routes>
         </div>
 

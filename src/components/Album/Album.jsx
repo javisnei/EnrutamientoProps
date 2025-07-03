@@ -4,12 +4,15 @@ import style from './Album.module.css'
 export const Album = () => {
     const [corazonBool, setCorazonBoll] = React.useState(true );
 
+    // lo hook o s\useStates siempre van de primeros 
+    //---------------------------------------------
+
     const cambio = () =>
     {
         setCorazonBoll(!corazonBool);
     }
 
-    //---------------------------------------------
+    
     
 
   return (

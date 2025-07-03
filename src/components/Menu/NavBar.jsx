@@ -25,6 +25,8 @@ export const NavBar = () => {
 
        <Link to="/Album" className={styles.menu}>Album</Link>
 
+             <Link to="/Tareas" className={styles.menu}>Tareas</Link>
+
     </nav>
       
   </>
