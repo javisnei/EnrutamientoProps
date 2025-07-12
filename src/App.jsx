@@ -20,8 +20,10 @@ function App() {
   return (
     <>
       <div className={styles.principal}>
+        
         <div className={styles.menu}>
           <NavBar />
+          <p>asdfcwe</p>
         </div>
 
         <div className={styles.paginas}>
