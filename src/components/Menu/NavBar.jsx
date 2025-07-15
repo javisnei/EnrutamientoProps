@@ -46,6 +46,10 @@ export const NavBar = () => {
         <Link to="/Tareas" className={styles.menu}>
           sfgvgcn
         </Link>
+
+         <Link to="/SQL" className={styles.menu}>
+          BaseDatos
+        </Link>
       </nav>
     </>
   );

@@ -15,6 +15,7 @@ import { Cebolla } from "./components/Cebolla/Cebolla";
 import { Contador } from "./components/Contador/Contador";
 import { Album } from "./components/Album/Album";
 import { Todo } from "./components/Tareas/Todo";
+import { BaseDatos } from "./components/BaseDatos/BaseDatos";
 
 function App() {
   return (
@@ -37,6 +38,8 @@ function App() {
             <Route path="/Cebolla" element={<Cebolla />} />
             <Route path="/Album" element={<Album />} />
             <Route path="/Tareas" element={<Todo/>} />
+
+            <Route path="/SQL" element={<BaseDatos/>} />
           </Routes>
         </div>
 
