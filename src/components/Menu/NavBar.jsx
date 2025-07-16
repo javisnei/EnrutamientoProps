@@ -4,7 +4,6 @@ import styles from "./NavBar.module.css";
 export const NavBar = () => {
   return (
     <>
-      <p>gverg</p>
       <nav className={styles.cont1}>
         <Link to="/" className={styles.menu}>
           {" "}
@@ -41,10 +40,6 @@ export const NavBar = () => {
 
         <Link to="/Tareas" className={styles.menu}>
           Tareas
-        </Link>
-
-        <Link to="/Tareas" className={styles.menu}>
-          sfgvgcn
         </Link>
 
          <Link to="/SQL" className={styles.menu}>
